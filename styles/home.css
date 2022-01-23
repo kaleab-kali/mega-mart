@@ -49,55 +49,63 @@ header {
     margin-left: 0.5rem;
 }
 
+    /* naviagtion
+    ============================================ */
+    nav {
+        margin: 0;
+        width: 100vw;
+        height:3rem;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .nav-btn {
+        background-color: rgb(58, 54, 54);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-left {
+        display: flex;
+        align-items: center;
+        /* justify-content: flex-end; */
+    }
+    nav a {
+        margin: 0;
+        width: 7rem;
+        height: 3rem;
+        color: white;
+        padding: 0 0.2rem;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-btn a:hover:not(.active) {
+        background-color: #111;
+    }
+   
+    .all-catagory {
+        height: 3rem;
+        color: turquoise;
+        
+    }
+    .all-catagory svg {
+        height: 1rem;
+        width: 1rem;
+    }
+    .nav-right {
+        justify-content: flex-end;
+        /* justify-content: right; */
+    }
+    .nav-right-btns {
+       /* justify-content: flex-end; */
+       display: flex;
+       align-items: flex-end;
+       /* justify-self: self-end; */
+    }
 
-nav {
-    margin: 0;
-    width: 100vw;
-    height:3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-nav a {
-    margin: 0;
-    width: 7rem;
-    height: 3rem;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.nav-left {
-    justify-content: flex-end;
-}
-.all-catagory {
-    background-color: rgb(58, 54, 54);
-    /* width: 10rem; */
-    height: 3rem;
-    color: turquoise;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* .all-catagory a {
-    width: 10rem;
-    height: 3rem;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-.all-catagory a:hover:not(.active){
-    background-color: #111;
-}
-.all-catagory svg {
-    height: 1rem;
-    width: 1rem;
-}
-
-nav ul {
+/* nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -106,7 +114,7 @@ nav ul {
 }
 
 nav li {
-    /* float: left; */
+   
     display: inline;
     background-color: rgb(58, 54, 54);
 }
@@ -121,7 +129,7 @@ nav li a {
 }
 nav li a:hover:not(.active) {
     background-color: #111;
-}
+} */
 /* banner section
 ==========================================================*/
 /* product section
